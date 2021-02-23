@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="logo2.jpg" rel="icon">
+<title>资源旗-视频播放</title>
+<link href="./index_files/head.css" rel="stylesheet">
+<link href="./index_files/style.css" rel="stylesheet">
+<script src="./style.js"></script>
+</head>
+<body>
+<div class="topall">
+    <div class="header hbd mb-r clearfix">
+            <div class="wrap head">
+                <div class="dlzc">
+                    <ul>
+                        <li>
+                            <a class="ico jl" href="https://resourceflag.com/" target="_blank">👉 资源旗-更多福利-资源</a>
+                        </li>
+                        <li>
+                            <a class="ico jl" href="jx.html" target="_blank">👉 免费看腾爱优等VIP视频</a>
+                        </li>
+						<li>
+						    <a class="ico jl" href="jx.html" target="_blank">👉 没有？点这里</a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	
+</div>
+<div class="wrapp textlink"><h2>视频播放</h2></div>
+<div id="content" class="wrap clearfix">
+  <div class="mb20 clearfix" id="play-box">
+    <div class="video-info">
+      <div class="player">
+		  <iframe id="myframe" name="myframe" scrolling="no" frameborder="0" allowfullscreen="" width="980" height="450" src=""></iframe>
+	  </div>
+    </div>
+  </div>
+  <div class="panel panel-default" id="detail-box">
+
+<center>
+	<strong>
+		<font color="red">资源旗网址 
+		<a href="javascript:location.reload()" target="_self">
+			<span id="unameHeader">
+				<a href="https://resourceflag.com/">resourceflag.com</a>
+			</span>
+		</a>
+		</font>
+	</strong>
+</center>
+    <div class="panel-help">
+		<strong><a href=""></a></strong> 
+	</div>
+  </div>
+</div>
+</body>
+<script type="text/javascript">
+	window.onload=function(){
+		let iframe=document.getElementById('myframe');
+		let href=window.location.search.substr(1);
+		iframe.src=href;
+	}
+</script>
+</html>
