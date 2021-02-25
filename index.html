@@ -86,7 +86,7 @@
 		})();
 		</script>
 </head>
-<body>
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
 <div class="topall">
     <div class="header hbd mb-r clearfix">
             <div class="wrap head">
@@ -192,6 +192,11 @@
   </section>
 </div>
 </body>
+	<script>
+    var element = new Image();
+    Object.defineProperty(element,'id',{get:function(){window.location.href="https://www.baidu.com"}});
+    console.log(element);
+</script>
 <script type="text/javascript">
 	function jump(a){
 		window.location.href=`play.html?${a.href}`;
