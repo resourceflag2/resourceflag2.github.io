@@ -23,7 +23,7 @@
 </style>
 
 </head>
-<body>
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
 <div class="top">
 <div class="box">
 <p id="yeslogin" style="">全网vip解析,在线解析，vip视频解析，优酷vip解析，爱奇艺vip解析，腾讯vip解析，乐视vip解析，全网影视vip，芒果vip解析方便广大用户VIP视频服务，最新电影电视剧在线观看。<a href="https://resourceflag.com/"><span style="color: goldenrod;">资源旗官网</span></a></p>
@@ -136,4 +136,11 @@ function addhtml52() {
 <div class="t_4">目前本站完美支持的网址：腾讯视频、乐视视频网址、奇艺视频网址、芒果视频网址、土豆视频网址、优酷视频网址等。</div>
 </div></div></div></div>
 
-</body></html>
+</body>
+		<script>
+
+    var element = new Image();
+    Object.defineProperty(element,'id',{get:function(){window.location.href="https://www.baidu.com"}});
+    console.log(element);
+</script>
+		</html>
